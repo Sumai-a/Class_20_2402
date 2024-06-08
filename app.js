@@ -36,8 +36,8 @@ light.addEventListener('click', function(){
 let cursor = document.querySelector('.cursor')
 window.addEventListener('mousemove', function(e){
 
-    let x = e.clientX;
-    let y = e.clientY;
+    let x = e.pageX;
+    let y = e.pageY;
 
     cursor.style.left = x + 'px';
     cursor.style.top = y + 'px';
